@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "knap på sukkertoppen",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.lectio.dk/*"
+
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "permissions":[
+        "activeTab"
+    ]
+}
+
+
