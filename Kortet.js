@@ -3,7 +3,8 @@ let kantine;
 
 
 function setup(){
-createCanvas(1042, 557);
+//createCanvas(1042, 557);
+createCanvas(windowWidth, windowHeight);
 //print(kortImg.width);
 //print(kortImg.height); // tænker at det gerne må være billedets orginale højde for at få et bedst mulig billede
 
@@ -13,6 +14,7 @@ createCanvas(1042, 557);
 
 function draw(){
     background(kortImg);
+
     kantine = rect(813, 186, 81, 134);
     kantine.noFill();
     kantine.stroke(0, 255, 0);  
